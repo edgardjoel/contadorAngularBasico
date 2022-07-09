@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background: #183D6B;
+ 
+}
+
+.contadores__parrafo--colorRamdom{
+  color: #fff;
+  font-size: 50px;
+  text-align: center;;
+ 
+}
+.parrafo--blanco{
+  color: #fff;
+}
+button{
+  margin-right: 10px;;
+}
+
+.bakground--blanco{
+  background: #fff;
+  margin: 30;
+  min-width: 450px;
+  width: 30%;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.anchoTotal{
+  width: 80%;
+}

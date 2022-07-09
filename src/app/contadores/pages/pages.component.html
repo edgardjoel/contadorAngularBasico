@@ -1,0 +1,25 @@
+<p class="contadores__parrafo--colorRamdom mt-5">Contador con Input y Output</p>
+
+<div class="container mt-5 bakground--blanco">
+  <div class="row text-center">
+    <div class="col">
+      <h1>Contador</h1>
+      <h2>{{contador}}</h2>
+    </div>
+  </div>
+  <div class="row text-center mt-3 mb-5">
+    <div class="col">
+      <button (click)="incrementar()" class="btn btn-primary">Incrementar</button>
+      <button (click)="decrementar()" class="btn btn-info">Decrementar</button>
+    </div>
+  </div>
+
+  <hr class="">
+
+  <div class="row">
+    <div class="col">
+      <app-hijo [contador]="contador" (cambioContadorHijo)="contador = $event"></app-hijo>
+    </div>
+  </div>
+
+</div>
