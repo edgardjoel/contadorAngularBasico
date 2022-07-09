@@ -15,4 +15,4 @@ Es una aplicación sencilla entre comunicación entre el componente padre, hijo 
 Utilicé la libreria bootstrap
 
 ### Preview del proyecto
-![img](https://i.ibb.co/brFcGWW/contador.png)
+![img](./src/contador.png)
